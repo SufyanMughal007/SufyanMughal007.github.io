@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #843AA6, #1D71B8);
+  }
+  
+  header {
+    padding: 20px;
+    background: transparent;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 20px;
+    min-height: calc(100vh - 170px); /* Subtracting header and footer height from viewport height */
+    overflow-y: auto;
+  }
+  
+  h1 {
+    color: #FFF;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .box {
+    background: #FFF;
+    padding: 20px;
+    height: 250px;
+  }
+  
+  footer {
+    background: #FFF;
+    padding: 20px;
+    color: #323E7A;
+    height: 150px; /* Increased height of footer */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .quick-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Align quick links to center */
+  }
+  
+  .quick-links li {
+    margin-right: 10px;
+    display: inline-block; /* Display quick links in a horizontal line */
+  }
+  
+  .quick-links li a {
+    color: #323E7A;
+    text-decoration: none;
+  }
+  
+  .website-name {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2;
+  }
+  
+  /* Your existing CSS styles for the grid containers */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional CSS styles if needed */
